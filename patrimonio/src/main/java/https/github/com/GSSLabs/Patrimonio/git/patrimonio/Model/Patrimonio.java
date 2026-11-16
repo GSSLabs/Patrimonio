@@ -54,10 +54,13 @@ public class Patrimonio {
 
     /// constructor
 
+    public Patrimonio() {
+    }
+
     public Patrimonio(Long id, String nr_patrimonio, String local, String descricao) {
         Id = id;
         this.nr_patrimonio = nr_patrimonio;
         this.descricao = descricao;
-        Local = Local;
+        this.Local = Local;
     }
 }
